@@ -79,15 +79,21 @@
 .ripple {
   overflow: hidden;
   position: relative;
+  cursor: pointer;
   .ripple-child {
     background: rgba(0, 0, 0, 0.2);
     position: absolute;
     border-radius: 100%;
-    animation: rippleDrop 0.6s linear;
+    animation: rippleDrop 0.5s linear;
     opacity: 0;
   }
 }
 
+.dark-theme {
+  .ripple-child {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
 @keyframes rippleDrop {
   100% {
     transform: scale(2);
@@ -157,4 +163,20 @@
   font-size: 10px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style: none;
+
+  li {
+    min-height: 48px;
+    padding: 0 16px;
+    line-height: 48px;
+    &:hover {
+      background: rgba(0, 0, 0, 0.05);
+    }
+  }
 }
