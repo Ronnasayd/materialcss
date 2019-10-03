@@ -1,0 +1,46 @@
+{
+  "name": "autofront",
+  "description": "Help in front-end development",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "author": "Ronnasayd de Sousa Machado",
+  "license": "MIT",
+  "homepage": "https://github.com/Ronnasayd/Auto-Front",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ronnasayd/Auto-Front.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ronnasayd/Auto-Front/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-partials-imported": "^1.0.7",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.10.2",
+    "minimist": "^1.2.0",
+    "node-sass": "^4.12.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "browserslist": [
+    "last 100 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}
