@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -14,12 +24,25 @@
     color: #fff;
     height: 48px;
     width: 240px;
-    font-weight: bold;
     margin: 20px;
+    &:nth-child(2) {
+      background: red;
+    }
+    &:nth-child(3) {
+      background: rgb(19, 145, 92);
+    }
   }
 }
 .dark-theme {
   div {
     color: rgba(255, 255, 255, 0.87);
+  }
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  & span {
+    margin: 10px;
   }
 }
