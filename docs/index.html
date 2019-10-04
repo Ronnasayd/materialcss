@@ -62,7 +62,36 @@
         <li class="ripple m-item">lorem ipsum</li>
       </ul>
     </div>
-
+    <div class="form-example">
+      <form class="m-form">
+        <div class="m-input-container">
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="m-input"
+            pattern="^(\w+)@(\w+).com$"
+            placeholder="usuario@email.com"
+          />
+          <label for="email" class="m-label">email</label>
+        </div>
+      </form>
+    </div>
+    <div class="form-example">
+      <form class="m-form">
+        <div class="m-input-container">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="m-input"
+            pattern=".{8,}"
+            placeholder="minimo de 8 digitos"
+          />
+          <label for="password" class="m-label">password</label>
+        </div>
+      </form>
+    </div>
     <script src="./static/dist/js/core.min.js"></script>
   </body>
 </html>
