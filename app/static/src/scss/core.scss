@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
 
+* {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.disabled {
+  color: rgba(0, 0, 0, 0.38);
+}
+.unfocused {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .dp-1 {
   box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
@@ -49,6 +60,16 @@
 .dark-theme {
   background: #121212;
   color: rgba(255, 255, 255, 0.87);
+  * {
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .disabled {
+    color: rgba(255, 255, 255, 0.38);
+  }
+  .unfocused {
+    color: rgba(255, 255, 255, 0.6);
+  }
   .dp-1 {
     background: #1f1f1f;
   }
