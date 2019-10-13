@@ -46,3 +46,10 @@ body {
   margin: 25px 10px;
   max-width: 300px;
 }
+.m-container {
+  margin: 10px;
+  & div {
+    background: rgba(201, 189, 189, 0.2);
+    height: 100px;
+  }
+}
