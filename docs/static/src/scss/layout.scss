@@ -1,55 +1,53 @@
-* {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
 }
-body {
-  font-family: "Roboto", sans-serif;
-}
-.container {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
+
+.light-theme-elevation,
+.dark-theme-elevation {
+  padding-bottom: 16px;
+  padding-top: 16px;
   div {
-    width: 200px;
-    height: 200px;
-    margin: 20px 20px;
     text-align: center;
-    line-height: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+}
+
+.button-example {
+  padding-bottom: 16px;
+  padding-top: 16px;
   button {
-    background: rgb(129, 12, 207);
-    border: none;
+    height: 56px;
+    border: 0;
+    outline: 0;
     color: #fff;
-    height: 48px;
-    width: 240px;
-    margin: 20px;
-    &:nth-child(2) {
+    &:nth-child(1) {
       background: red;
     }
+    &:nth-child(2) {
+      background: green;
+    }
     &:nth-child(3) {
-      background: rgb(19, 145, 92);
+      background: blue;
     }
   }
 }
-
-.container-text {
-  display: flex;
-  flex-direction: column;
-  & span {
-    margin: 10px;
-  }
+.text-examples {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
-.form-example {
-  margin: 25px 10px;
-  max-width: 300px;
-}
-.m-container {
-  margin: 10px;
+.m-container-example {
+  padding-top: 16px;
+  padding-bottom: 16px;
   & div {
-    background: rgba(201, 189, 189, 0.2);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(85, 78, 78, 0.2);
     height: 100px;
+    padding: 10px;
   }
 }
